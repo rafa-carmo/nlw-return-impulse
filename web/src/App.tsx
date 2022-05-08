@@ -1,11 +1,14 @@
 import { Widget } from './components/Widget'
 import './global.css'
+import { Home } from './pages/Home/index';
 
 
 
 function App() {
   return (
-    <Widget />
+    <Home>
+      <Widget />
+    </Home>
   )
 }
 

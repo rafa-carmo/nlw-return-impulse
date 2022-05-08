@@ -1,7 +1,8 @@
 import tw from "tailwind-styled-components"
 
 export const Wrapper = tw.div`
-    bg-zinc-900
+    dark:bg-zinc-900
+    bg-white
     p-4
     relative
     rounded-2xl
@@ -12,13 +13,16 @@ export const Wrapper = tw.div`
     shadow-lg
     w-[calc(100vw-2rem)]
     md:w-auto
+    text-zinc-800
+    dark:text-zinc-100
 `
 
 
 
 export const Footer = tw.footer`
     text-xs
-    text-neutral-400
+    text-zinc-500
+    dark:text-zinc-400
     my-2
 `
 
